@@ -18,6 +18,7 @@ import lombok.ToString;
 public class Movie {
 	private String mseq;
 	private String mNameko;
+	private String mNameEn;
 	private String prdtYear;
 	private String openDt;
 	private String genreAlt;
