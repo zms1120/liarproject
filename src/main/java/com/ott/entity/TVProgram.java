@@ -25,5 +25,8 @@ public class TVProgram {
 	private String pWriter;
 	private String pActor;
 	private String genreAlt;
+	private String ageRating;
 	private String thumnail_path;
+	
+	
 }
