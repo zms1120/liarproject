@@ -1,6 +1,8 @@
 package com.ott.entity;
 
-import jakarta.persistence.Entity;
+
+import javax.persistence.Entity;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -16,12 +18,12 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Movie {
-	private String mseq;
-	private String mNameko;
-	private String prdtYear;
-	private String openDt;
-	private String genreAlt;
-	private String directors;
-	private String companys;
-	private String thumnail_path;
+	private String mseq;			
+	private String mNameko;			//영화이름
+	private String prdtYear;		//제작일
+	private String openDt;			//개봉일
+	private String genreAlt;		//장르
+	private String directors;		//감독
+	private String companys;		//영화사
+	private String thumnail_path;	//썸네일
 }
